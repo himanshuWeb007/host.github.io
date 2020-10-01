@@ -234,3 +234,14 @@ main {
     justify-content: center;
   }
 }
+@media (min-width: 40rem) {
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+
+  .main-footer__links{
+    flex-direction: row;
+    justify-content: center;
+  }
+}
